@@ -1,8 +1,9 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:repeating_command_block"
-  },
-  "result": "minecraft:knowledge_book",
-  "count": 1
+    "type": "devsdream:stonecutting_nbt",
+    "ingredient": {
+        "item": "minecraft:repeating_command_block"
+    },
+    "result": "minecraft:structure_block",
+    "count": 1,
+    "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:obsidian\",quality:\"cut\"}},CustomModelData:330016,display:{Name:'{\"translate\":\"item.tcc.obsidian_gemstone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}','{\"text\":\"\"}','{\"translate\":\"item.tcc.modifiers.ring\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"attribute.modifier.plus.0\",\"italic\":false,\"color\":\"blue\",\"with\":[\"1\",{\"translate\":\"attribute.name.generic.knockback_resistance\"}]}']}}"
 }

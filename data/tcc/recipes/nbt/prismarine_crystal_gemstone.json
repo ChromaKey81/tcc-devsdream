@@ -1,8 +1,9 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:prismarine_crystals"
-  },
-  "result": "minecraft:knowledge_book",
-  "count": 1
+    "type": "devsdream:stonecutting_nbt",
+    "ingredient": {
+        "item": "minecraft:prismarine_crystals"
+    },
+    "result": "minecraft:structure_block",
+    "count": 1,
+    "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:prismarine_crystal\",quality:\"cut\"}},CustomModelData:330018,display:{Name:'{\"translate\":\"item.tcc.prismarine_crystal_gemstone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}','{\"text\":\"\"}','{\"translate\":\"item.tcc.modifiers.ring\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"attribute.modifier.plus.1\",\"italic\":false,\"color\":\"blue\",\"with\":[\"10\",{\"translate\":\"attribute.name.generic.attack_speed\"}]}']}}"
 }

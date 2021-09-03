@@ -1,19 +1,20 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "#A#",
-    "A A",
-    "#A#"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:gold_nugget"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "#A#",
+        "A A",
+        "#A#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_nugget"
+        },
+        "A": {
+            "item": "minecraft:netherite_scrap"
+        }
     },
-    "A": {
-      "item": "minecraft:netherite_scrap"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{tcc:{id:\"ring\",metal:\"minecraft:netherite\",durability:[175,175],repaired:0b},CustomModelData:338020,Unbreakable:0b,HideFlags:4,display:{Name:'{\"translate\":\"item.tcc.ring.netherite\",\"italic\":false}',Lore:['{\"translate\":\"item.durability\",\"color\":\"gray\",\"italic\":false,\"with\":[175,175]}','{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

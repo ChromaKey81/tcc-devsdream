@@ -1,22 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "## ",
-    "IIN",
-    "II "
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:chain"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "## ",
+        "IIN",
+        "II "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chain"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        }
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "N": {
-      "item": "minecraft:iron_nugget"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{RepairCost:100,HideFlags:4,Unbreakable:0b,tcc:{id:\"teapot\"},CustomModelData:330029,display:{Name:'{\"translate\":\"item.tcc.teapot\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

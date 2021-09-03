@@ -1,19 +1,20 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "GGG",
-    "GCG",
-    "GGG"
-  ],
-  "key": {
-    "G": {
-      "item": "minecraft:gold_ingot"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "GGG",
+        "GCG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "C": {
+            "item": "minecraft:carrot"
+        }
     },
-    "C": {
-      "item": "minecraft:carrot"
+    "result": {
+        "item": "minecraft:golden_carrot",
+        "nbt": "{Enchantments:[{id:\"binding_curse\"}],HideFlags:1,tcc:{id:\"enchanted_golden_carrot\"},display:{Name:'{\"translate\":\"item.tcc.enchanted_golden_carrot\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

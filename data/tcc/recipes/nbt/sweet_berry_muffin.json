@@ -1,20 +1,22 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "item": "minecraft:wheat"
+    "type": "devsdream:crafting_shapeless_nbt",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:wheat"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "nbt": "{tcc:{id:\"sweet_berry_muffin\"},CustomModelData:330001,display:{Name:'{\"translate\":\"item.tcc.glow_berry_muffin\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}",
+        "count": 2
     }
-  ],
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

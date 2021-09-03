@@ -1,22 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "IAI",
-    "ARA",
-    "IAI"
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:amethyst_shard"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "IAI",
+        "ARA",
+        "IAI"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{tcc:{id:\"photometer\"},CustomModelData:330039,display:{Name:'{\"translate\":\"item.tcc.photometer\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

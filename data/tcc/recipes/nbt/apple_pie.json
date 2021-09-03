@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:apple"
-    },
-    {
-      "item": "minecraft:apple"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:egg"
+    "type": "devsdream:crafting_shapeless_nbt",
+    "ingredients": [
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:egg"
+        }
+    ],
+    "result": {
+        "item": "minecraft:bread",
+        "nbt": "{HideFlags:2,tcc:{id:\"apple_pie\"},CustomModelData:330002,display:{Name:'{\"translate\":\"item.tcc.apple_pie\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0,Operation:1,Slot:\"head\"}]}"
     }
-  ],
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

@@ -1,19 +1,20 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "G##",
-    "  #",
-    "  G"
-  ],
-  "key": {
-    "#": {
-      "tag": "minecraft:planks"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "G##",
+        "  #",
+        "  G"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "G": {
+            "item": "minecraft:glowstone"
+        }
     },
-    "G": {
-      "item": "minecraft:glowstone"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{HideFlags:4,Unbreakable:0b,tcc:{id:\"spectral_boomerang\",durability:[300,300],repaired:0b},CustomModelData:330005,display:{Name:'{\"translate\":\"item.tcc.spectral_boomerang\",\"italic\":false}',Lore:['{\"translate\":\"item.durability\",\"color\":\"gray\",\"italic\":false,\"with\":[300,300]}','{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

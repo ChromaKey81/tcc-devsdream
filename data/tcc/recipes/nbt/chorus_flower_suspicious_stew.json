@@ -1,20 +1,21 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:chorus_flower"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:brown_mushroom"
+    "type": "devsdream:crafting_shapeless_nbt",
+    "ingredients": [
+        {
+            "item": "minecraft:chorus_flower"
+        },
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:red_mushroom"
+        },
+        {
+            "item": "minecraft:brown_mushroom"
+        }
+    ],
+    "result": {
+        "item": "minecraft:suspicious_stew",
+        "nbt": "{Effects:[{EffectId:25b,EffectDuration:200}]}"
     }
-  ],
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

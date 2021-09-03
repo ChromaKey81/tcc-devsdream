@@ -1,16 +1,17 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "###",
-    "# #",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:iron_nugget"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{tcc:{id:\"ring\",metal:\"minecraft:iron\",durability:[100,100],repaired:0b},CustomModelData:338000,Unbreakable:0b,HideFlags:4,display:{Name:'{\"translate\":\"item.tcc.ring.iron\",\"italic\":false}',Lore:['{\"translate\":\"item.durability\",\"color\":\"gray\",\"italic\":false,\"with\":[100,100]}','{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

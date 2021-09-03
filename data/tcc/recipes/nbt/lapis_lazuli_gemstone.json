@@ -1,8 +1,9 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:lapis_lazuli"
-  },
-  "result": "minecraft:knowledge_book",
-  "count": 1
+    "type": "devsdream:stonecutting_nbt",
+    "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "result": "minecraft:structure_block",
+    "count": 1,
+    "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:lapis_lazuli\",quality:\"cut\"}},CustomModelData:330014,display:{Name:'{\"translate\":\"item.tcc.lapis_lazuli_gemstone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}','{\"text\":\"\"}','{\"translate\":\"item.tcc.modifiers.ring\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"attribute.modifier.plus.0\",\"italic\":false,\"color\":\"blue\",\"with\":[\"1\",{\"translate\":\"attribute.name.tcc.mob_xp_bonus\"}]}']}}"
 }

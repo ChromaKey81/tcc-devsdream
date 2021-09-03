@@ -1,23 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "WWW",
-    "PPP",
-    " S "
-  ],
-  "key": {
-    "W": {
-      "item": "minecraft:wheat"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "WWW",
+        "PPP",
+        " S "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
     },
-    "P": {
-      "tag": "minecraft:planks"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{RepairCost:100,HideFlags:4,Unbreakable:0b,tcc:{id:\"paintbrush\"},CustomModelData:330010,display:{Name:'{\"translate\":\"item.tcc.paintbrush\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book",
-    "count": 1
-  }
 }

@@ -1,22 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "-#-",
-    "#D#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:rabbit_hide"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "-#-",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:rabbit_hide"
+        },
+        "-": {
+            "item": "minecraft:string"
+        },
+        "D": {
+            "item": "minecraft:magenta_dye"
+        }
     },
-    "-": {
-      "item": "minecraft:string"
-    },
-    "D": {
-      "item": "minecraft:magenta_dye"
+    "result": {
+        "item": "minecraft:bundle",
+        "nbt": "{tcc:{id:\"dyed_bundle\",color:\"magenta\"},CustomModelData:330009,display:{Name:'{\"translate\":\"item.tcc.dyed_bundle.magenta\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

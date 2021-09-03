@@ -1,15 +1,16 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "Q Q",
-    " Q "
-  ],
-  "key": {
-    "Q": {
-      "item": "minecraft:quartz"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "Q Q",
+        " Q "
+    ],
+    "key": {
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_block",
+        "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:4,Unbreakable:0b,tcc:{id:\"teacup\"},CustomModelData:330024,display:{Name:'{\"translate\":\"item.tcc.teacup\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

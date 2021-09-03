@@ -1,23 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "B#B",
-    "#S#",
-    "B#B"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:repeating_command_block"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "B#B",
+        "#S#",
+        "B#B"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "S": {
+            "item": "minecraft:fermented_spider_eye"
+        },
+        "B": {
+            "item": "minecraft:blaze_rod"
+        }
     },
-    "S": {
-      "item": "minecraft:fermented_spider_eye"
-    },
-    "B": {
-      "item": "minecraft:blaze_rod"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{HideFlags:4,Unbreakable:0b,tcc:{id:\"obsidian_mirror\",durability:[20,20],repaired:0b},CustomModelData:330007,display:{Name:'{\"translate\":\"item.tcc.obsidian_mirror\",\"italic\":false}',Lore:['{\"translate\":\"item.durability\",\"color\":\"gray\",\"italic\":false,\"with\":[20,20]}','{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book",
-    "count": 1
-  }
 }

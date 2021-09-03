@@ -1,8 +1,7 @@
 {
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
-    "function": "tcc:entity/player/nbt_recipe/crafted_item",
-    "loot": ["tcc:items/golden_chorus_fruit"]
+    "recipes": ["tcc:nbt/golden_chorus_fruit"]
   },
   "criteria": {
     "has_the_recipe": {

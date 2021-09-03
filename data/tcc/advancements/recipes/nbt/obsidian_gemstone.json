@@ -1,8 +1,7 @@
 {
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
-    "function": "tcc:entity/player/nbt_recipe/crafted_item",
-    "loot": ["tcc:items/obsidian_gemstone"]
+    "recipes": ["tcc:nbt/obsidian_gemstone"]
   },
   "criteria": {
     "has_the_recipe": {

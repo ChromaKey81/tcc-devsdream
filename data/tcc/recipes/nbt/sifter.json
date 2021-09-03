@@ -1,22 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "SSS",
-    "RRD",
-    "SSS"
-  ],
-  "key": {
-    "S": {
-      "tag": "minecraft:stone_crafting_materials"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "SSS",
+        "RRD",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "tag": "minecraft:stone_crafting_materials"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond_shovel"
+        }
     },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "D": {
-      "item": "minecraft:diamond_shovel"
+    "result": {
+        "item": "minecraft:dropper",
+        "nbt": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:0b,tag:{tcc:{placed_block:0b,block:\"sifter\",enchantments:[]}}}]},CustomModelData:330018,tcc:{id:\"sifter\"},display:{Name:'{\"translate\":\"block.tcc.sifter\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

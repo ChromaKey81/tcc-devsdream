@@ -1,8 +1,9 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:ender_pearl"
-  },
-  "result": "minecraft:knowledge_book",
-  "count": 1
+    "type": "devsdream:stonecutting_nbt",
+    "ingredient": {
+        "item": "minecraft:ender_pearl"
+    },
+    "result": "minecraft:structure_block",
+    "count": 1,
+    "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:ender_pearl\",quality:\"cut\"}},CustomModelData:330012,display:{Name:'{\"translate\":\"item.tcc.ender_pearl_gemstone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}','{\"text\":\"\"}','{\"translate\":\"item.tcc.modifiers.ring\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"attribute.modifier.plus.0\",\"italic\":false,\"color\":\"blue\",\"with\":[\"3\",{\"translate\":\"attribute.name.tcc.item_teleportation_range\"}]}']}}"
 }

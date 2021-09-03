@@ -1,19 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:phantom_membrane"
+        }
     },
-    "X": {
-      "item": "minecraft:phantom_membrane"
+    "result": {
+        "item": "minecraft:item_frame",
+        "nbt": "{tcc:{id:\"phantom_item_frame\"},CustomModelData:330000,EntityTag:{Tags:[\"tcc.phantom_item_frame.place\",\"tcc.phantom_item_frame.empty\",\"tcc.phantom_item_frame\",\"tcc.entity\",\"tcc.block\"],Invisible:0b,Item:{id:\"minecraft:structure_block\",Count:0b,tag:{tcc:{id:\"phantom_item_frame_model\",clear:0b},CustomModelData:330046}}},display:{Name:'{\"translate\":\"item.tcc.phantom_item_frame\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

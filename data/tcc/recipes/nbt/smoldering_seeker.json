@@ -1,19 +1,20 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    " O ",
-    "OMO",
-    " O "
-  ],
-  "key": {
-    "O": {
-      "item": "minecraft:repeating_command_block"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        " O ",
+        "OMO",
+        " O "
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        }
     },
-    "M": {
-      "item": "minecraft:magma_block"
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{RepairCost:100,HideFlags:4,Unbreakable:0b,tcc:{id:\"unset_smoldering_seeker\"},CustomModelData:330027,display:{Name:'{\"translate\":\"item.tcc.smoldering_seeker\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

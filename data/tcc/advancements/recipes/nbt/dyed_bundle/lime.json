@@ -1,8 +1,7 @@
 {
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
-    "function": "tcc:entity/player/nbt_recipe/crafted_item",
-    "loot": ["tcc:items/dyed_bundle/lime"]
+    "recipes": ["tcc:nbt/dyed_bundle/lime"]
   },
   "criteria": {
     "has_the_recipe": {

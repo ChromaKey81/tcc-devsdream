@@ -1,22 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "CCC",
-    "QAQ",
-    " Q "
-  ],
-  "key": {
-    "C": {
-      "tag": "minecraft:carpets"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "CCC",
+        "QAQ",
+        " Q "
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:carpets"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "Q": {
+            "item": "minecraft:quartz_block"
+        }
     },
-    "A": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "Q": {
-      "item": "minecraft:quartz_block"
+    "result": {
+        "item": "minecraft:hopper",
+        "nbt": "{BlockEntityTag:{id:\"minecraft:hopper\",Items:[{id:\"minecraft:barrier\",Count:0b,tag:{tcc:{placed_block:0b,block:\"jewelry_table\"}}}]},CustomModelData:330000,tcc:{id:\"jewelry_table\"},display:{Name:'{\"translate\":\"block.tcc.jewelry_table\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

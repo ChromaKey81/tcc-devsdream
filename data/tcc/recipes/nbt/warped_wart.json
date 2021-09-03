@@ -1,13 +1,16 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [{
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:warped_roots"
+    "type": "devsdream:crafting_shapeless_nbt",
+    "ingredients": [
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:warped_roots"
+        }
+    ],
+    "result": {
+        "item": "minecraft:structure_block",
+        "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},tcc:{id:\"warped_wart\"},CustomModelData:330022,display:{Name:'{\"translate\":\"item.tcc.warped_wart\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}",
+        "count": 2
     }
-  ],
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

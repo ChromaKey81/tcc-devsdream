@@ -1,19 +1,20 @@
 {
-    "type": "crafting_shaped",
+    "type": "devsdream:crafting_shaped_nbt",
     "pattern": [
-      "###",
-      "#F#",
-      "###"
+        "###",
+        "#F#",
+        "###"
     ],
     "key": {
-      "#": {
-        "item": "minecraft:gold_ingot"
-      },
-      "F":{
-          "item":"minecraft:chorus_fruit"
-      }
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "F": {
+            "item": "minecraft:chorus_fruit"
+        }
     },
     "result": {
-      "item": "minecraft:knowledge_book"
+        "item": "minecraft:chorus_fruit",
+        "nbt": "{tcc:{id:\"golden_chorus_fruit\"},CustomModelData:330005,display:{Name:'{\"translate\":\"item.tcc.golden_chorus_fruit\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  }
+}

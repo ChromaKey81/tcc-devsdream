@@ -1,22 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "GGG",
-    "NSN",
-    "GGG"
-  ],
-  "key": {
-    "G": {
-      "item": "minecraft:gilded_blackstone"
+    "type": "devsdream:crafting_shaped_nbt",
+    "pattern": [
+        "GGG",
+        "NSN",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "S": {
+            "item": "minecraft:nether_star"
+        }
     },
-    "N": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "S": {
-      "item": "minecraft:nether_star"
+    "result": {
+        "item": "minecraft:dropper",
+        "nbt": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:0b,tag:{tcc:{placed_block:0b,block:\"nether_reactor_core\"}}}]},CustomModelData:330030,tcc:{id:\"nether_reactor_core\"},display:{Name:'{\"translate\":\"block.tcc.nether_reactor_core\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']}}"
     }
-  },
-  "result": {
-    "item": "minecraft:knowledge_book"
-  }
 }

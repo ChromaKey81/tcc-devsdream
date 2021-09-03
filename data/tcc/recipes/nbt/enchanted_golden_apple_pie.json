@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
+    "type": "devsdream:crafting_shapeless_nbt",
     "ingredients": [
-      {
-        "item": "minecraft:enchanted_golden_apple"
-      },
-      {
-        "item": "minecraft:enchanted_golden_apple"
-      },
-      {
-        "item": "minecraft:sugar"
-      },
-      {
-        "item": "minecraft:egg"
-      }
+        {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:egg"
+        }
     ],
     "result": {
-      "item": "minecraft:knowledge_book"
+        "item": "minecraft:bread",
+        "nbt": "{HideFlags:3,tcc:{id:\"enchanted_golden_apple_pie\"},Enchantments:[{id:\"binding_curse\",lvl:1s}],CustomModelData:330005,display:{Name:'{\"translate\":\"item.tcc.enchanted_golden_apple_pie\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0,Operation:1,Slot:\"head\"}]}"
     }
-  }
-  
+}
